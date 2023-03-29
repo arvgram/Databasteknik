@@ -22,6 +22,8 @@ CREATE TABLE screenings (
   	date		DATE,
 	movie_name	TEXT,
 	production_year	INT,
+	screening_id 	TEXT DEFAULT (lower(hex(randomblob(16))))
+	
 	
   	PRIMARY KEY	(theatre_name, start_time, date),
   	FOREIGN KEY	(theatre_name) REFERENCES theatres(name),

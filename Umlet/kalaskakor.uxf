@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>120</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Recipe
+--
+_cookie_name_
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>310</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Raw materials warehouse
+--
+amount_stored
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>200</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Pallet
+--
+_pallet_id_
+production_date
+production_time
+status
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>550</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+_name_
+address
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>360</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Delivery
+--
+_delivery_id_
+date
+time</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>120</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Ingredient
+--
+_name_
+allergene
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>130</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>140</y>
+      <w>90</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes>
+    <additional_attributes>60.0;170.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>40</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Ingredient list
+--
+Amount
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>80</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>130</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>280</y>
+      <w>40</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>430</y>
+      <w>40</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>450</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+order_date
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>480</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+
+</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
